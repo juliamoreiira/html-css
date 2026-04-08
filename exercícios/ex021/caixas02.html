@@ -1,0 +1,127 @@
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            margin: auto;
+            width: 500px;
+            font-family: Arial, Helvetica, sans-serif;        
+            background-color: gray;
+        }
+
+       header {
+         background-color: aliceblue;
+         padding: 10px;
+         outline: 5px dashed black;
+         margin: 15px;
+            }
+            h1{
+            box-shadow: inset -5px 1px 13px 8px rgba(0, 0, 0, 0.395);
+            }
+
+            nav{
+                background-color: rgb(157, 152, 152);
+                padding: 5px;
+                box-shadow: 2px 3px 7px 1px rgba(0, 0, 0, 0.525);
+            
+
+            
+            }
+            nav > a {
+                text-decoration: none;
+                font-weight: bolder;
+                margin-right: 30px;
+            }
+
+            nav > a:hover{
+                text-decoration: underline;
+                color: black;
+            
+            }
+
+            nav > a:visited{
+            color: white;
+            }
+    
+        main {
+            background-color: aliceblue;
+            padding:10px;
+            margin:10px;
+            border-radius: 5px;
+            box-shadow: 2px 3px 7px 1px rgba(0, 0, 0, 0.525);
+        
+        
+        }
+        article > aside {background-color: lightgray;
+            padding: 0px 10px 0px 10px
+        
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer > p {
+        margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: black;
+            border-radius: 50%;
+        
+        }
+
+
+    </style>
+ </head>
+ <body>
+    <header>
+        <h1>NOTÍCIAS</h1>
+        <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Taylor Swift afirma que não sabe gankar mid:</h2>
+                <p>Durante uma entrevista, a cantora Taylor Swift revelou suas habilidades nos jogos online. Ao comentar sobre partidas de League of Legends, ela admitiu que está em constante aprendizado.</p>
+                <p>“Tento ajudar meu time, mas a verdade é que eu não sei gankar mid”, disse a cantora.</p>
+                <h2>Britney Spears desenvolve novo vício:</h2>
+                <aside>
+                    <p>A polícia prendeu a cantora nesta semana após ela ser acusada de furto para conseguir dinheiro e gastar com jogos online. A suspeita foi localizada poucas horas depois em sua residência jogando Genshin Impact.</p>
+                    <p>"Gastei toda minha fortuna em drogas. Desenvolvi agora, um novo vício em jogos virtuais.", informou ao jornal MitinhoNEWS. </p>
+
+                    <p>Artigo escrito por Lady Gaga</p>
+
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pela mais mais alberta einstein</p>
+
+    </footer>
+    <div id="bola"></div>
+ </body>
+ </html>
